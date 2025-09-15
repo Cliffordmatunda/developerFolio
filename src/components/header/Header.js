@@ -51,21 +51,9 @@ function Header() {
               <a href="#experience">Work Experiences</a>
             </li>
           )}
-          {viewOpenSource && (
-            <li>
-              <a href="#opensource">Open Source</a>
-            </li>
-          )}
-          {viewAchievement && (
-            <li>
-              <a href="#achievements">Achievements</a>
-            </li>
-          )}
-          {viewBlog && (
-            <li>
-              <a href="#blogs">Blogs</a>
-            </li>
-          )}
+          
+          
+          
           {viewTalks && (
             <li>
               <a href="#talks">Talks</a>
@@ -91,3 +79,4 @@ function Header() {
   );
 }
 export default Header;
+
